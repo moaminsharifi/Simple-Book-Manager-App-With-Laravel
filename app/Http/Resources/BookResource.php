@@ -19,8 +19,29 @@ class BookResource extends JsonResource
      */
     public function toArray($request)
     {
+        // @todo: update it with better laravel way
+        $authors = [];
+        if ($this->authors){
+            foreach ($this->authors as $author) {
+                $authors[] =  AuthorResource::make($author);
+            }
+        }
+        $avgRating = $this->reviews->avg('review');
+        
         return [
-            //@todo code here
+
+            "id" => $this->id,
+            "isbn" => $this->isbn,
+            "title" => $this->title,
+            "description" => $this->description,
+            "authors"=>$authors,
+            "review"=>[
+                "avg"=>is_null($avgRating) ? 0 : round($avgRating),
+                "count"=>$this->reviews->count(),
+            ],
+           
+
+            
         ];
     }
 }
