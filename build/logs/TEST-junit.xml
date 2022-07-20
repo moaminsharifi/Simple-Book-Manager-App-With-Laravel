@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="42" assertions="49" errors="0" warnings="0" failures="42" skipped="0" time="0.578588">
+    <testsuite name="Feature" tests="42" assertions="49" errors="0" warnings="0" failures="42" skipped="0" time="0.578588">
+      <testsuite name="Tests\Feature\BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" tests="7" assertions="14" errors="0" warnings="0" failures="7" skipped="0" time="0.211249">
+        <testcase name="testResponseStructure" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="14" assertions="2" time="0.126690">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testResponseStructure
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:795
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:37</failure>
+        </testcase>
+        <testcase name="testListWithoutFilters" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="72" assertions="2" time="0.022094">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testListWithoutFilters
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:89</failure>
+        </testcase>
+        <testcase name="testTitleFilter" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="92" assertions="2" time="0.010116">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testTitleFilter
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:101</failure>
+        </testcase>
+        <testcase name="testAuthorsFilter" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="109" assertions="2" time="0.011154">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testAuthorsFilter
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:126</failure>
+        </testcase>
+        <testcase name="testTitleSort" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="139" assertions="2" time="0.010591">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testTitleSort
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:149</failure>
+        </testcase>
+        <testcase name="testAvgReviewSort" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="157" assertions="2" time="0.011841">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testAvgReviewSort
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:181</failure>
+        </testcase>
+        <testcase name="testPagination" class="Tests\Feature\BooksListTest" classname="Tests.Feature.BooksListTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php" line="189" assertions="2" time="0.018762">
+          <failure type="PHPUnit\Framework\AssertionFailedError">Tests\Feature\BooksListTest::testPagination
+Invalid JSON was returned from the route.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:922
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:689
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:209
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookListTest.php:198</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" tests="24" assertions="24" errors="0" warnings="0" failures="24" skipped="0" time="0.253261">
+        <testcase name="testDenyGuestAccess" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="13" assertions="1" time="0.014879">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testDenyGuestAccess
+Expected response status code [401] but received 200.
+  Failed asserting that 401 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:24</failure>
+        </testcase>
+        <testcase name="testDenyNonAdminUserAccess" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="27" assertions="1" time="0.011730">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testDenyNonAdminUserAccess
+Expected response status code [403] but received 200.
+  Failed asserting that 403 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:41</failure>
+        </testcase>
+        <testcase name="testSuccessfulPost" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="44" assertions="1" time="0.010124">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testSuccessfulPost
+Expected response status code [201] but received 200.
+  Failed asserting that 201 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:58</failure>
+        </testcase>
+        <testsuite name="Tests\Feature\BookPostTest::testValidation" tests="21" assertions="21" errors="0" warnings="0" failures="21" skipped="0" time="0.216527">
+          <testcase name="testValidation with data set #0" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.012815">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #0 (array(null), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #1" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010430">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #1 (array(''), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #2" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009830">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #2 (array('97883283023414'), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #3" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009967">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #3 (array('978832830'), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #4" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009832">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #4 (array('97883283023422'), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #5" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009864">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #5 (array(array()), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #6" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009703">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #6 (array(array(673890)), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #7" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009804">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #7 (array(array('978832830234')), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #8" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009859">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #8 (array('FCKGWRHQQ2'), 'isbn')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #9" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010590">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #9 (array(null), 'title')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #10" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010886">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #10 (array(''), 'title')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #11" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010004">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #11 (array(array()), 'title')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #12" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.013935">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #12 (array(null), 'description')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #13" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009759">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #13 (array(''), 'description')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #14" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009888">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #14 (array(array()), 'description')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #15" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009838">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #15 (array(null), 'authors')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #16" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009807">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #16 (array(array()), 'authors')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #17" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009764">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #17 (array(''), 'authors')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #18" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010175">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #18 (array(array(999999)), 'authors.0')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #19" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.010003">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #19 (array(array(array())), 'authors.0')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+          <testcase name="testValidation with data set #20" class="Tests\Feature\BookPostTest" classname="Tests.Feature.BookPostTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php" line="72" assertions="1" time="0.009773">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookPostTest::testValidation with data set #20 (array(array(null)), 'authors.0')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookPostTest.php:91</failure>
+          </testcase>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Tests\Feature\BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" tests="11" assertions="11" errors="0" warnings="0" failures="11" skipped="0" time="0.114079">
+        <testcase name="testDenyGuestAccess" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="14" assertions="1" time="0.009525">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testDenyGuestAccess
+Expected response status code [401] but received 200.
+  Failed asserting that 401 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:23</failure>
+        </testcase>
+        <testcase name="testSuccessfulPost" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="26" assertions="1" time="0.010344">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testSuccessfulPost
+Expected response status code [201] but received 200.
+  Failed asserting that 201 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:38</failure>
+        </testcase>
+        <testsuite name="Tests\Feature\BookReviewTest::testValidation" tests="9" assertions="9" errors="0" warnings="0" failures="9" skipped="0" time="0.094210">
+          <testcase name="testValidation with data set #0" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.010183">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #0 (array(null), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #1" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.013944">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #1 (array(''), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #2" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.009903">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #2 (array(0), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #3" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.009974">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #3 (array(11), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #4" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.010109">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #4 (array(3.5), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #5" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.010201">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #5 (array(array()), 'review')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #6" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.009974">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #6 (array(null), 'comment')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #7" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.009972">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #7 (array(''), 'comment')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+          <testcase name="testValidation with data set #8" class="Tests\Feature\BookReviewTest" classname="Tests.Feature.BookReviewTest" file="/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php" line="64" assertions="1" time="0.009951">
+            <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\BookReviewTest::testValidation with data set #8 (array(array()), 'comment')
+Expected response status code [422] but received 200.
+  Failed asserting that 422 is identical to 200.
+
+/home/mohsen/projects/bin/a/example-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:177
+/home/mohsen/projects/bin/a/example-app/tests/Feature/BookReviewTest.php:79</failure>
+          </testcase>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
