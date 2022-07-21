@@ -16,6 +16,8 @@ class BookReview extends Model
     protected $fillable = [
         'comment',
         'review',
+        'book_id',
+        'user_id'
     ];
 
     public function user()
