@@ -49,7 +49,15 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
-        "test": "php artisan test; echo;"
+        "test": "php artisan test; echo;",
+        
+        "sniff": [
+            "./vendor/bin/php-cs-fixer fix -vvv --dry-run --show-progress=dots"
+       ],
+       "lint": [
+           "./vendor/bin/php-cs-fixer fix -vvv --show-progress=dots"
+       ]
+
     },
     "extra": {
         "laravel": {
