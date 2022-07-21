@@ -13,6 +13,7 @@ use App\Http\Resources\BookReviewResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Validation\ValidationException;
 use App\Http\Requests\BookGetCollectionRequest;
 class BooksController extends Controller
 {
@@ -82,11 +83,31 @@ class BooksController extends Controller
 
     public function post(PostBookRequest $request)
     {
-        //@todo code here
+        $request->validated();
+
+        $book = Book::create($request->only('isbn', 'title' ,'description'));
+        
+        foreach ($request->only('authors') as $key => $authorId) {
+            $book->authors()->attach($authorId);
+        }
+        
+     
+        return response()->json([
+            'data'=>new BookResource($book)
+        ],201);
+       
     }
 
     public function postReview(Book $book, PostBookReviewRequest $request)
     {
-        //@todo code here
+        $request->validated();
+        $attributes = $request->only('review','comment' );
+        $attributes['book_id'] = $book->id;
+        $attributes['user_id'] = auth()->user()->id;
+        $bookReview = BookReview::create($attributes);
+       
+        return response()->json([
+            'data'=>new BookReviewResource($bookReview)
+        ],201);
     }
 }
