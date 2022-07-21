@@ -23,7 +23,7 @@ class BookResource extends JsonResource
         $authors = [];
         if ($this->authors){
             foreach ($this->authors as $author) {
-                $authors[] =  AuthorResource::make($author);
+                $authors[] =  new AuthorResource($author);
             }
         }
         $avgRating = $this->reviews->avg('review');
