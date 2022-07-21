@@ -17,5 +17,5 @@ Route::get('/books', 'BooksController@getCollection');
 
 Route::post('/books', 'BooksController@post')->middleware('auth.admin');
 
-Route::post('/books/{book}/reviews', 'BooksController@postReview');
+Route::post('/books/{book}/reviews', 'BooksController@postReview')->middleware('auth');
 
