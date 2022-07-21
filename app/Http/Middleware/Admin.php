@@ -3,7 +3,6 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Support\Facades\Auth;
 
 class Admin
 {
@@ -16,23 +15,21 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-       
-        if (!auth()->check() ) {
-            if (! $request->expectsJson()) {
-                
+        if (!auth()->check()) {
+            if (!$request->expectsJson()) {
                 return response()->json(401);
             }
-            return response('',401);
 
-            
+            return response('', 401);
         }
         if (!auth()->user()->is_admin) {
-            if (! $request->expectsJson()) {
-                
+            if (!$request->expectsJson()) {
                 return response()->json(403);
             }
-            return response('',403);
+
+            return response('', 403);
         }
+
         return $next($request);
     }
 }

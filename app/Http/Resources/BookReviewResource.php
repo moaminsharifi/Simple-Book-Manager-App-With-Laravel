@@ -1,10 +1,8 @@
 <?php
 
-declare (strict_types=1);
-
+declare(strict_types=1);
 
 namespace App\Http\Resources;
-
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
@@ -19,10 +17,10 @@ class BookReviewResource extends JsonResource
     public function toArray($request)
     {
         return [
-            "id" => $this->id,
-            "review" => $this->review,
-            "comment" => $this->comment,
-            "user"=>  new UserResource($this->user)
+            'id' => $this->id,
+            'review' => $this->review,
+            'comment' => $this->comment,
+            'user'=>  new UserResource($this->user),
         ];
     }
 }

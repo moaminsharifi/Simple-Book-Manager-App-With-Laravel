@@ -17,7 +17,7 @@ class BookReview extends Model
         'comment',
         'review',
         'book_id',
-        'user_id'
+        'user_id',
     ];
 
     public function user()
