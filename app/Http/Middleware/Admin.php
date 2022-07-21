@@ -16,8 +16,23 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        // @TODO implement
+       
+        if (!auth()->check() ) {
+            if (! $request->expectsJson()) {
+                
+                return response()->json(401);
+            }
+            return response('',401);
 
+            
+        }
+        if (!auth()->user()->is_admin) {
+            if (! $request->expectsJson()) {
+                
+                return response()->json(403);
+            }
+            return response('',403);
+        }
         return $next($request);
     }
 }
